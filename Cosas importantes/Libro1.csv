@@ -1,0 +1,4 @@
+id,nombre_usuario,correo,contrasena,edad,especie,credenciales
+1,Cosmo,jc@gmail.com,Cosmo,23,Dalmata,Administrador
+2,Yami,ym@gmail.com,Yami,23,Humano,Cliente
+3,Neuro,gh@gmail.com,Neuro,25,Gato,Vendedor
