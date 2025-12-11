@@ -1,33 +1,79 @@
 <!doctype html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Breve descripción de la página" />
     <title>Grafy - Homepage</title>
 
-    <!-- Favicon -->
-    <link rel="icon" href="src/Gemini_Generated_Image_9and139and139and.png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style.css" />
 
-    <!-- SEO / Social (opcionales) -->
     <meta property="og:title" content="Grafy" />
     <meta property="og:description" content="Breve descripción de la página" />
     <meta property="og:type" content="website" />
 </head>
+
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <header>
-        <div class="container">
-            <h1>Grafy</h1>
-            <nav aria-label="Navegación principal">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
+        <div class="container-fluid ">
+
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark d-flex justify-content-between">
+                <h1>Grafy</h1>
+                <div class="collapse navbar-collapse ms-5" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item ms-3">
+                            <div class="dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown link
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <div class="dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown link
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <div class="dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown link
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <form class="me-2" role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
             </nav>
         </div>
     </header>
@@ -41,7 +87,23 @@
         </section>
 
         <section id="content" class="container">
-            <!-- Contenido principal -->
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -51,11 +113,11 @@
         </div>
     </footer>
 
-    <!-- Scripts -->
     <script>
-        // Actualiza el año en el pie de página
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
+
     <script src="main.js" defer></script>
 </body>
+
 </html>
